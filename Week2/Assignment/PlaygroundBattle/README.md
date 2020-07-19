@@ -31,5 +31,6 @@ Power of each monster is calculated using
 - After the match is over winner gets 19 tokens and platform gets 1 token.
 
 ### Screenshot
+![x.x](results.png)
 
 
