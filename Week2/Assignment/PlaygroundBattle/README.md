@@ -9,7 +9,7 @@ In this game the contract(PlaygroundBattle) mints 5 NFTs(say pokemons) each to t
 
 ### Calculating power
 
-Power of each monster is calculated using 
+Power of each pokemon is calculated using 
 - `let block = getCurrentBlock()` 
 - `let NFTpower = block.id[ (PlaygroundBattle.totalSupply % UInt64(32)) ]`
 
