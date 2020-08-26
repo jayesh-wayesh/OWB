@@ -5,12 +5,11 @@ This is a simple game built using [NFT standards](https://github.com/onflow/flow
 
 ### Description
 
-It's a 2 player game. In this game the platform mints 5 NFTs(say pokemons) to each of these players. There are 5 rounds in total and in each round i'th monster of **team😈** fights with i'th pokemon of **team🦄**. The pokeon with more power wins the round. The team who wins the more rounds wins the match.  
-
+In this game the contract(PlaygroundBattle) mints 5 NFTs(say pokemons) each to two players. There are 5 rounds in total and in each round i’th pokemon of **player1** 😈 fights with i’th pokemon of **player2** 🦄. The pokemon with more power wins the round. The team who wins the more rounds wins the match.
 
 ### Calculating power
 
-Power of each monster is calculated using 
+Power of each pokemon is calculated using 
 - `let block = getCurrentBlock()` 
 - `let NFTpower = block.id[ (PlaygroundBattle.totalSupply % UInt64(32)) ]`
 
@@ -31,5 +30,6 @@ Power of each monster is calculated using
 - After the match is over winner gets 19 tokens and platform gets 1 token.
 
 ### Screenshot
+![x.x](results.png)
 
 
